@@ -1,94 +1,66 @@
 <template>
     <div class="">
-        <header class="sticky top-0 z-50 w-full">
-          <section>
+      <header class="sticky top-0 z-50 w-full">
+    <section class="w-full bg-gradient-to-r from-sky-700 to-cyan-700">
+        <div class="flex items-center justify-between px-6 py-4 shadow-lg">
+            <img class="w-10" src="https://i.ibb.co/j3ys635/shield-1.png" alt="SSL Certificate">
+            <!-- register brand icon -->
+            <!-- <h2 class="text-5xl font-bold text-white font-poppins">FOREDOM</h2> -->
+            <div class="flex text-3xl italic font-bold text-white font-poppins">
+              <p class="animate-fade-up">foredom.</p>
+              <p class="animate-fade-up animate-delay-150 text-sky-200">com.</p>
+              <p class="animate-fade-up animate-delay-300 text-sky-50">mx</p>
+            </div>
+            <img class="w-10" src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo">
+        </div>
+    </section>
+    <section class="bg-white shadow-md font-poppins">
+        <nav class="flex justify-center py-3 space-x-6 font-semibold text-gray-700 transition-all duration-700 ease-in-out">
+            <RouterLink
+                class="px-2 py-1 border-b-4 hover:text-sky-500"
+                :class="{ 'border-sky-500': route.name === 'home' }"
+                :to="{ name: 'home' }"
+            >
+                Inicio
+            </RouterLink>
+            <RouterLink
+                class="px-2 py-1 border-b-4 hover:text-sky-500"
+                :class="{ 'border-sky-500': route.name === 'spaOne' }"
+                :to="{ name: 'spaOne' }"
+            >
+                Beneficios y Productos
+            </RouterLink>
+            <!-- <RouterLink
+                class="px-2 py-1 border-b-4 hover:text-sky-500"
+                :class="{ 'border-sky-500': route.name === 'spaTwo' }"
+                :to="{ name: 'spaTwo' }"
+            >
+                Ingredientes
+            </RouterLink> -->
+            <RouterLink
+                class="px-2 py-1 border-b-4 hover:text-sky-500"
+                :class="{ 'border-sky-500': route.name === 'spaThree' }"
+                :to="{ name: 'spaThree' }"
+            >
+                Preguntas y Respuestas
+            </RouterLink>
+            <a
+                class="px-2 py-1 border-b-4 hover:text-sky-500"
+                :class="{ 'border-sky-500': route.name === 'non' }"
+                href="https://www.prasadam.mx/"
+            >
+                Prasadam
+          </a>
+        </nav>
+    </section>
+</header>
 
-          </section>
-            <section class="w-full bg-white">
-                <div class="flex justify-start w-full py-2 space-x-4 text-lg bg-white px-9 font-josefin-sans">
-                    <RouterLink :class="{'border-b-orange-500 border-b-2 ': route.name === 'home'}" :to="{ name: 'home' }" >Inicio</RouterLink>
-                    <RouterLink :class="{'border-b-orange-500 border-b-2': route.name === 'spaOne'}" :to="{ name: 'spaOne' }" >Beneficios</RouterLink>
-                    <RouterLink :class="{'border-b-orange-500 border-b-2': route.name === 'spaTwo'}" :to="{ name: 'spaTwo' }" >Ingredientes</RouterLink>
-                    <RouterLink :class="{'border-b-orange-500 border-b-2': route.name === 'spaThree'}" :to="{ name: 'spaThree' }" >Preguntas</RouterLink>
-                    <RouterLink :class="{'border-b-orange-500 border-b-2': route.name === 'non'}" :to="{ name: 'home' }" >Prasadam</RouterLink>
-                </div>
-                <div class="flex items-center justify-around py-1 text-xl text-white bg-orange-400 shadow-md font-poppins">
-                    <img class="w-12" src="../assets/ssl-certificate.png" alt="">
-                    <p class="font-parkinsans">medicinaparaartritis.com</p>
-                    <img class="w-12" src="https://medicinaparaansiedad.com/img/logo.png" alt="">
-                </div>
-            </section>
-        </header>
         <main class="overflow-hidden">
             <slot name="main">
 
             </slot>
         </main>
-        <footer class="relative w-full p-6 text-white bg-orange-800 font-poppins">
-        <!-- Sección Título -->
-        <div class="mb-6 text-center">
-            <h2 class="text-3xl font-bold lg:text-5xl">Contacto</h2>
-        </div>
 
-        <!-- Imagen de seguridad SSL -->
-        <div class="absolute top-4 right-4">
-            <img class="w-12 lg:w-16" src="https://shykandev.github.io/medicinaparadiabetes/assets/ssl-Cjd7i8VT.png" alt="SSL Seguridad" />
-        </div>
-
-        <!-- Dirección -->
-        <div class="mb-8 text-center">
-            <div class="flex items-center justify-center gap-2 mb-4">
-                <i class="text-3xl fas fa-map-marker-alt lg:text-4xl"></i>
-                <a href="https://www.google.com.mx/maps/place/Gutenberg+128,+Anzures,+Miguel+Hidalgo,+11590+Ciudad+de+México,+CDMX" target="_blank" rel="noopener noreferrer" class="text-sm font-bold lg:text-lg hover:underline">
-                    Gutenberg #128 Anzures, Miguel Hidalgo, 11590 Ciudad de México
-                </a>
-            </div>
-            <iframe class="w-full h-48 lg:h-72" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5395970522604!2d-99.1760704!3d19.4322888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b32758939b%3A0xf34fbd07bc47d6dd!2sGutenberg%20128%2C%20Anzures%2C%20Miguel%20Hidalgo%2C%2011590%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1730328617197!5m2!1sen!2smx" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border: 0;"></iframe>
-        </div>
-
-        <!-- Sección de Contactos -->
-        <div class="flex flex-wrap justify-around gap-8 mb-8 text-center">
-            <!-- Teléfonos -->
-            <div class="flex flex-col items-center">
-                <i class="mb-2 text-3xl fas fa-phone"></i>
-                <a href="tel:+525563950178" class="text-sm font-bold lg:text-lg hover:text-orange-500">
-                    +52 55 6395 0178
-                </a>
-            </div>
-            <div class="flex flex-col items-center">
-                <i class="mb-2 text-3xl fas fa-phone"></i>
-                <a href="tel:+525563950179" class="text-sm font-bold lg:text-lg hover:text-orange-500">
-                    +52 55 6395 0179
-                </a>
-            </div>
-
-            <!-- Email -->
-            <div class="flex flex-col items-center">
-                <i class="mb-2 text-3xl fas fa-envelope"></i>
-                <a href="mailto:informes@prasadam.mx" class="text-sm font-bold lg:text-lg hover:text-orange-500">
-                    informes@prasadam.mx
-                </a>
-            </div>
-
-            <!-- WhatsApp -->
-            <div class="flex flex-col items-center">
-                <i class="mb-2 text-3xl fab fa-whatsapp"></i>
-                <a href="https://wa.me/525562516687" target="_blank" rel="noopener noreferrer" class="text-sm font-bold lg:text-lg hover:text-orange-500">
-                    +52 5562516687
-                </a>
-            </div>
-        </div>
-
-        <!-- Pie de página -->
-        <div class="text-center">
-            <p class="mb-2 text-sm font-bold lg:text-lg">
-                Todos los derechos reservados &copy; {{new Date().getFullYear()}}
-            </p>
-            <p class="text-sm lg:text-lg">
-                Design by <strong>PACA</strong>
-            </p>
-        </div>
-    </footer>
 
 
     </div>

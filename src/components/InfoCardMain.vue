@@ -3,12 +3,12 @@
     class="max-w-lg mx-auto overflow-hidden bg-white border rounded-lg shadow-md border-green-50 md:max-w-lg "
   >
     <!-- Imagen -->
-    <img :src="image" alt="Card image" class="object-cover w-full max-h-60 " />
+    <!-- <img :src="image" alt="Card image" class="object-cover w-full max-h-60 " /> -->
 
     <!-- Contenido -->
     <div class="p-4">
       <!-- Título -->
-      <h2 class="mb-2 text-xl font-semibold text-center text-orange-600 border-b-2 border-b-orange-500 font-poppins ">{{ title }}</h2>
+      <h2 class="mb-2 text-xl font-semibold text-center border-b-2 text-sky-600 border-b-sky-500 font-poppins ">{{ title }}</h2>
 
       <!-- Resumen -->
       <p class="text-base text-gray-600 font-poppins">{{ summary }}</p>
