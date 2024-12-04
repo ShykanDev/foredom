@@ -1,0 +1,30 @@
+
+### TODO LIST  
+
+1. **PRICE**  
+   - [ ] Highlight the price in **red** on the table.  
+
+2. **PROFESSIONAL FOCUS**  
+   - [ ] Emphasize that these products are designed for **professionals**.  
+
+3. **TECHNICAL EXPLANATION OF THE SR MODEL**  
+   - [ ] Include technical details about **bidirectional** and **unidirectional** functionality.  
+   - [ ] Specify voltage options: **230V** and **120V**.  
+
+4. **DIFFERENCES BETWEEN MODELS (RED, BLUE, AND SR)**  
+   - [ ] Explain differences between:  
+     - **Red model (Asia)**: supports up to **5mm**.  
+     - **Blue model (USA)**: supports up to **4mm**.  
+   - [ ] Add these differences to the **video** as well.  
+
+5. **PROFESSIONAL USE AND FIELDS**  
+   - [ ] Describe who uses SR models and in which fields (e.g., jewelry, woodworking, dental labs, etc.).  
+
+6. **SPARE PARTS**  
+   - [ ] Create a dedicated section for **spare parts exclusive to Foredom Asia SR**, excluding USA-made models.  
+
+7. **USES OF THE SR MODEL**  
+   - [ ] Include examples of applications such as **polishing**, **engraving**, **drilling**, **grinding**, etc.  
+
+8. **DISCLAIMER**  
+   - [ ] Add a star disclaimer indicating any limitations or support specific to **Foredom Asia** products.  

@@ -19,12 +19,12 @@
                         </tr>
                         <tr>
                             <td class="px-4 py-2 border-b border-gray-200 text-slate-700"><i class="text-green-500 fas fa-dollar-sign"></i> Precio</td>
-                            <td class="px-4 py-2 border-b border-gray-200">Más alto.</td>
-                            <td class="px-4 py-2 border-b border-gray-200">Más accesible en Asia.</td>
-                            <td class="px-4 py-2 border-b border-gray-200 bg-yellow-50">Ofrecemos los costos más bajos del mercado en ambas líneas.</td>
+                            <td class="px-4 py-2 font-bold text-red-800 border-b border-gray-200">Más alto. <i class="text-red-800 fas fa-exclamation-circle"></i></td>
+                            <td class="px-4 py-2 font-bold text-red-800 border-b border-gray-200">Más alto. <i class="text-red-800 fas fa-exclamation-circle"></i></td>
+                            <td class="px-4 py-2 border-b border-gray-200 bg-yellow-50">Ofrecemos los costos más bajos del mercado en productos Foredom SR tanto de EE.UU. como de Asia. <i class="text-emerald-500 fas fa-dollar-sign"></i></td>
                         </tr>
                         <tr class="bg-gray-50">
-                            <td class="px-4 py-2 border-b border-gray-200 text-slate-700"><i class="text-green-500 fas fa-globe"></i> Origen</td>
+                            <td class="px-4 py-2 border-b border-gray-200 text-slate-700 "><i class="text-green-500 fas fa-globe"></i> Origen</td>
                             <td class="px-4 py-2 border-b border-gray-200">Fabricados en EE.UU.</td>
                             <td class="px-4 py-2 border-b border-gray-200">Fabricados en Asia.</td>
                             <td class="px-4 py-2 border-b border-gray-200 bg-yellow-50">Respaldados por nuestra experiencia en el mercado.</td>
@@ -37,7 +37,7 @@
                         </tr>
                         <tr class="bg-gray-50">
                             <td class="px-4 py-2 border-b border-gray-200 text-slate-700"><i class="text-green-500 fas fa-handshake"></i> Nosotros</td>
-                            <td class="px-4 py-2 border-b border-gray-200">Ofrecemos los costos más bajos del mercado en ambas líneas.</td>
+                            <td class="px-4 py-2 border-b border-gray-200">Ofrecemos los costos más bajos del mercado en ambas líneas. </td>
                             <td class="px-4 py-2 border-b border-gray-200">Ofrecemos los costos más bajos del mercado en ambas líneas.</td>
                             <td class="px-4 py-2 border-b border-gray-200 bg-yellow-50">Comprometidos con la satisfacción del cliente.</td>
                         </tr>

@@ -156,7 +156,17 @@
 
           </div>
         </section>
-
+        <section>
+          <h2 class="py-2 text-2xl font-bold text-center text-white shadow-lg bg-sky-800 font-poppins">Conozca las diferencias entre los productos Foredom SR de Asia y Estados Unidos</h2>
+          <SRForedomEU/>
+          <SRForedomAS/>
+        </section>
+        <section>
+          <UniBidi/>
+        </section>
+        <section>
+          <EtiquetaDiferencia/>
+        </section>
         <section class="flex flex-wrap justify-around w-full gap-2 px-2 mt-5 space-y-3">
           <InfoCardMain
       v-for="(item, index) in cardItems"
@@ -244,25 +254,7 @@
 
 
 
-        <section class="flex flex-col items-center justify-center w-full min-h-screen bg-white font-poppins ">
-        <div class="w-full mb-8 text-center">
-            <h2 class="px-5 py-5 mt-4 text-2xl font-bold text-white bg-sky-700">Conozca más información sobre los productos Foredom SR</h2>
-        </div>
-        <div class="w-full max-w-4xl">
-            <iframe class="w-full h-96" src="https://www.youtube.com/embed/hie5NewhtS4?si=T0NemfmtPfk3RRRZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="mt-8 text-center">
-          <ul class="text-left list-none list-inside">
-    <li class="mb-2"><i class="text-sky-500 fas fa-play-circle"></i> En este video se explicará todo sobre los productos Foredom SR.</li>
-    <li class="mb-2"><i class="text-sky-500 fas fa-balance-scale"></i> Se detallarán los beneficios clave de los productos Foredom SR.</li>
-    <li class="mb-2"><i class="text-sky-500 fas fa-cogs"></i> Se presentarán características y detalles de cada producto.</li>
-    <li class="mb-2"><i class="text-sky-500 fas fa-hand-holding-heart"></i> Se discutirán las mejores prácticas para utilizar los productos Foredom SR.</li>
-    <li class="mb-2"><i class="text-sky-500 fas fa-heart"></i> Se ofrecerán consejos sobre cómo integrar los productos Foredom SR en su rutina diaria.</li>
-</ul>
 
-</div>
-
-        </section>
 
 
   <section class="p-6 font-poppins">
@@ -341,6 +333,12 @@
                 </a>
               </div>
             </section>
+            <section>
+              <div class="p-4 text-sm text-center bg-gray-100">
+    <p><i class="fas fa-info-circle text-sky-500"></i>  <em>Este sitio no está afiliado, respaldado ni es propiedad de Foredom. Los productos Foredom que ofrecemos son distribuidos bajo licencia mayorista. Todas las marcas y nombres de productos son propiedad de sus respectivos dueños. Las imágenes utilizadas en este sitio son propiedad de sus respectivos autores y no somos propietarios de ellas.</em></p>
+</div>
+
+            </section>
       </template>
     </MainLayout>
   </div>
@@ -352,6 +350,10 @@ import IntroCard from '@/components/IntroCard.vue';
 import InformativeCardHome from '@/components/InformativeCardHome.vue';
 import GraphicBar from '@/components/GraphicBar.vue';
 import InfoCardMain from '@/components/InfoCardMain.vue';
+import SRForedomEU from '@/components/SRForedomEU.vue';
+import SRForedomAS from '@/components/SRForedomAS.vue';
+import UniBidi from '@/components/UniBidi.vue';
+import EtiquetaDiferencia from '@/components/EtiquetaDiferencia.vue';
 
 const cardItems = [
   {

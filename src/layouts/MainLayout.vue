@@ -2,20 +2,20 @@
     <div class="">
       <header class="sticky top-0 z-50 w-full">
     <section class="w-full bg-gradient-to-r from-sky-700 to-cyan-700">
-        <div class="flex items-center justify-between px-6 py-4 shadow-lg">
+        <div class="flex items-center justify-between px-6 py-1 shadow-lg">
             <img class="w-10" src="https://i.ibb.co/j3ys635/shield-1.png" alt="SSL Certificate">
             <!-- register brand icon -->
             <!-- <h2 class="text-5xl font-bold text-white font-poppins">FOREDOM</h2> -->
             <div class="flex text-3xl italic font-bold text-white font-poppins">
-              <p class="animate-fade-up">foredom.</p>
-              <p class="animate-fade-up animate-delay-150 text-sky-200">com.</p>
-              <p class="animate-fade-up animate-delay-300 text-sky-50">mx</p>
+              <p class="animate-fade-down">foredom.</p>
+              <p class="animate-fade-down animate-delay-150 text-sky-200">com.</p>
+              <p class="animate-fade-down animate-delay-300 text-sky-50">mx</p>
             </div>
             <img class="w-10" src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo">
         </div>
     </section>
     <section class="bg-white shadow-md font-poppins">
-        <nav class="flex justify-center py-3 space-x-6 font-semibold text-gray-700 transition-all duration-700 ease-in-out">
+        <nav class="flex justify-center py-2 space-x-6 text-sm font-semibold text-gray-700 transition-all duration-700 ease-in-out">
             <RouterLink
                 class="px-2 py-1 border-b-4 hover:text-sky-500"
                 :class="{ 'border-sky-500': route.name === 'home' }"
@@ -67,7 +67,7 @@
 </template>
 
 <script lang="ts" setup>
-import IntroCard from '@/components/IntroCard.vue';
+
 import { useRoute } from 'vue-router';
 
 const route = useRoute();

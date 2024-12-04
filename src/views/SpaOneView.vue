@@ -86,36 +86,84 @@
           <h2 class="py-4 mb-4 text-4xl font-bold text-center text-white bg-sky-900">Productos</h2>
 
           <section>
-            <section>
-            <article class="flex flex-wrap justify-center gap-4">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_918115-MLM75918025923_042024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_728694-MLM79021988090_092024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_694291-MLM79261792069_092024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_915778-MLM79262085205_092024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_676105-MLM79261762097_092024-O.webp" alt="A detailed image of a product with a white background">
-            </article>
-            <article class="flex flex-wrap justify-center gap-4">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_624431-MLM31232949620_062019-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_742373-MLM31232925863_062019-O.webp" alt="A detailed image of a product with a white background">
-            </article>
-            <article class="flex flex-wrap justify-center gap-4">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_869156-MLM79329155887_092024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_747008-MLM79329176867_092024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_794438-MLA79087922900_092024-O.webp" alt="A detailed image of a product with a white background">
-            </article>
-            <article class="flex flex-wrap justify-center gap-4">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_918115-MLM75918025923_042024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_951801-MLM75749494334_042024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_765531-MLM75749494690_042024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_802627-MLM78596578490_082024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_748005-MLM75749533680_042024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_671758-MLM75749534104_042024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_989193-MLM75749474478_042024-O.webp" alt="A detailed image of a product with a white background">
-                <img class="transition-transform transform rounded-lg hover:scale-105" src="https://http2.mlstatic.com/D_NQ_NP_650825-MLM75917765703_042024-O.webp" alt="A detailed image of a product with a white background">
-            </article>
-        </section>
+            <div class="container p-4 mx-auto">
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <!-- Blue Label Cards -->
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_624431-MLM31232949620_062019-O.webp" alt="Blue label product image 1" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_742373-MLM31232925863_062019-O.webp" alt="Blue label product image 2" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_627589-CBT54695091027_032023-O.webp" alt="Blue label product image 3" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_914577-CBT54695091033_032023-O.webp" alt="Blue label product image 4" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_876079-CBT54695091029_032023-O.webp" alt="Blue label product image 5" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_939776-MLM76181387412_052024-O.webp" alt="Blue label product image 6" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_720526-MLM76181387408_052024-O.webp" alt="Blue label product image 7" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_824778-MLM76181387410_052024-O.webp" alt="Blue label product image 8" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_840375-MLM48953843674_012022-O.webp" alt="Blue label product image 9" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg ">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_956597-MLM48953831797_012022-O.webp" alt="Blue label product image 10" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+
+            <!-- Red Label Cards -->
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_617958-MLM75845715509_042024-O.webp" alt="Red label product image 1" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_938616-MLM75845468521_042024-O.webp" alt="Red label product image 2" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_718248-MLM78830322075_082024-O.webp" alt="Red label product image 3" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_988149-MLM78830322155_082024-O.webp" alt="Red label product image 4" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_859554-MLM78870847895_092024-O.webp" alt="Red label product image 5" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_919823-MLM78870847469_092024-O.webp" alt="Red label product image 6" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_918115-MLM75918025923_042024-O.webp" alt="Red label product image 7" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_947051-MLM80472474674_112024-O.webp" alt="Red label product image 8" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_765531-MLM75749494690_042024-O.webp" alt="Red label product image 9" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-lg">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_938723-MLM75749775726_042024-O.webp" alt="Red label product image 9" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
+            </div>
+        </div>
+    </div>
 </section>
 
+        </section>
+
+        <section>
+          <h2 class="py-4 my-10 mb-4 text-4xl font-bold text-center text-white bg-sky-900">Refacciones</h2>
+          <RefaccionesForedom />
+        </section>
+
+        <section>
+          <UsageView />
         </section>
             </template>
         </MainLayout>
@@ -123,6 +171,8 @@
 </template>
 
 <script lang="ts" setup>
+import RefaccionesForedom from '@/components/RefaccionesForedom.vue';
+import UsageView from '@/components/UsageView.vue';
 import MainLayout from '@/layouts/MainLayout.vue';
 
 
