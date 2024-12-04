@@ -39,6 +39,13 @@
             </RouterLink> -->
             <RouterLink
                 class="px-2 py-1 border-b-4 hover:text-sky-500"
+                :class="{ 'border-sky-500': route.name === 'features' }"
+                :to="{ name: 'features' }"
+            >
+               Información detallada
+            </RouterLink>
+            <RouterLink
+                class="px-2 py-1 border-b-4 hover:text-sky-500"
                 :class="{ 'border-sky-500': route.name === 'spaThree' }"
                 :to="{ name: 'spaThree' }"
             >

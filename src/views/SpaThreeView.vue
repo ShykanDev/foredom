@@ -11,7 +11,7 @@
                       </div>
 
                       <div data-aos="fade-up" class="p-6 bg-white border rounded-lg shadow-lg border-sky-500">
-                          <h2 class="mb-2 text-xl font-semibold"><i class="text-sky-500 fas fa-heartbeat icon"></i> ¿Cómo beneficia Foredom a mi trabajo?</h2>
+                          <h2 class="mb-2 text-xl font-semibold"><i class="text-sky-500 fas fa-wrench"></i> ¿Cómo beneficia Foredom a mi trabajo?</h2>
                           <p>Los productos Foredom están diseñados para mejorar la eficiencia, durabilidad y precisión en sectores como joyería, odontología y fabricación industrial, lo que resulta en un incremento en la calidad de su trabajo.</p>
                       </div>
 
@@ -27,7 +27,7 @@
 
                       <div data-aos="fade-up" class="p-6 bg-white border rounded-lg shadow-lg border-sky-500">
                           <h2 class="mb-2 text-xl font-semibold"><i class="text-sky-500 fas fa-exclamation-circle icon"></i> ¿Puedo comprar productos Foredom a granel o individualmente?</h2>
-                          <p>Somos distribuidores mayoristas y ofrecemos solo ventas en grandes cantidades. Si está interesado en adquirir nuestros productos, contáctenos para conocer los métodos de pago y detalles de los pedidos al por mayor.</p>
+                          <p>Somos distribuidores mayoristas y ofrecemos solo ventas mayoristas. Si está interesado en adquirir nuestros productos, contáctenos para conocer los métodos de pago y detalles de los pedidos al por mayor.</p>
                       </div>
 
                       <div data-aos="fade-up" class="p-6 bg-white border rounded-lg shadow-lg border-sky-500">

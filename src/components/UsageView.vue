@@ -1,11 +1,11 @@
 <template>
   <div class="container p-4 mx-auto">
-   <h1 class="mb-8 text-4xl font-bold text-center">
+   <h1 class="mb-8 text-4xl font-bold text-center text-sky-800">
     Usos del Motor Foredom SR en Diferentes Industrias
    </h1>
-   <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+   <div  class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
     <!-- Card 1 -->
-    <div class="p-6 bg-white rounded-lg shadow-lg">
+    <div  data-aos="fade-up-left" class="p-6 bg-white rounded-lg shadow-lg">
      <img alt="Persona usando una herramienta Foredom SR para hacer joyería con precisión" class="object-cover w-full h-48 rounded-t-lg" height="400" src="https://storage.googleapis.com/a1aa/image/0lmk2mTi5sZGP5fzRTTfy3ukuSuOgGDG9GYAX3enmIEIs1unA.jpg" width="600"/>
      <h2 class="mt-4 text-2xl font-bold text-sky-900">
       Fabricación de Joyas con Foredom SR
@@ -29,7 +29,7 @@
      </ul>
     </div>
     <!-- Card 2 -->
-    <div class="p-6 bg-white rounded-lg shadow-lg">
+    <div data-aos="fade-up-left" data-aos-delay="100" class="p-6 bg-white rounded-lg shadow-lg">
      <img alt="Persona usando una herramienta Foredom SR para trabajar en madera con detalle" class="object-cover w-full h-48 rounded-t-lg" height="400" src="https://storage.googleapis.com/a1aa/image/Hsmi9wsZ7K5hE5JGNHHueI9KGtuk9nupgLap5yKLC6LAbt7JA.jpg" width="600"/>
      <h2 class="mt-4 text-2xl font-bold text-sky-900">
       Trabajo en Madera con Foredom SR
@@ -53,7 +53,7 @@
      </ul>
     </div>
     <!-- Card 3 -->
-    <div class="p-6 bg-white rounded-lg shadow-lg">
+    <div data-aos="fade-up-left" data-aos-delay="200" class="p-6 bg-white rounded-lg shadow-lg">
      <img alt="Dentista usando una herramienta Foredom SR para trabajos dentales precisos" class="object-cover w-full h-48 rounded-t-lg" height="400" src="https://storage.googleapis.com/a1aa/image/fig5vdYfuZpIZE0KdIyaeHMRnKDzhxk9ocwiSYdDkEHCs1unA.jpg" width="600"/>
      <h2 class="mt-4 text-2xl font-bold text-sky-900">
       Trabajo Dental con Foredom SR
@@ -77,7 +77,7 @@
      </ul>
     </div>
     <!-- Card 4 -->
-    <div class="p-6 bg-white rounded-lg shadow-lg">
+    <div data-aos="fade-up-left"  class="p-6 bg-white rounded-lg shadow-lg">
      <img alt="Persona usando una herramienta Foredom SR para restaurar antigüedades con detalle" class="object-cover w-full h-48 rounded-t-lg" height="400" src="https://storage.googleapis.com/a1aa/image/FxFfz9AuOuyYFCYzcXyHcD1ytY1IqFAxTx6xI8PjBLlBbt7JA.jpg" width="600"/>
      <h2 class="mt-4 text-2xl font-bold text-sky-900">
       Restauración de Antigüedades con Foredom SR
@@ -101,7 +101,7 @@
      </ul>
     </div>
     <!-- Card 5 -->
-    <div class="p-6 bg-white rounded-lg shadow-lg">
+    <div data-aos="fade-up-left" data-aos-delay="200" class="p-6 bg-white rounded-lg shadow-lg">
      <img alt="Persona usando una herramienta Foredom SR para hacer modelado de prototipos con precisión" class="object-cover w-full h-48 rounded-t-lg" height="400" src="https://storage.googleapis.com/a1aa/image/m5fp4bBcqgUfj0lnPNx6CeMzuwXiCeAVnKSwRaMboqd4XrdPB.jpg" width="600"/>
      <h2 class="mt-4 text-2xl font-bold text-sky-900">
       Modelado de Prototipos con Foredom SR
@@ -125,8 +125,8 @@
      </ul>
     </div>
     <!-- Card 6 -->
-    <div class="p-6 bg-white rounded-lg shadow-lg">
-     <img alt="Persona usando una herramienta Foredom SR para hacer grabado en vidrio con detalle" class="object-cover w-full h-48 rounded-t-lg" height="400" src="https://storage.googleapis.com/a1aa/image/6gLYY5GtXL5EKpRYVrxd9A78P5vm53aGugbMgtjfHJkCbt7JA.jpg" width="600"/>
+    <div data-aos="fade-up-left" data-aos-delay="300" class="p-6 bg-white rounded-lg shadow-lg">
+     <img alt="Persona usando una herramienta Foredom SR para hacer grabado en vidrio con detalle" class="object-cover w-full h-48 rounded-t-lg" height="400" src="https://storage.googleapis.com/a1aa/image/b00ccddf-9a4d-4fa9-ba2b-fca489defc93.jpeg" width="600"/>
      <h2 class="mt-4 text-2xl font-bold text-sky-900">
       Grabado en Vidrio con Foredom SR
      </h2>
@@ -148,6 +148,7 @@
       </li>
      </ul>
     </div>
+
    </div>
   </div>
 </template>

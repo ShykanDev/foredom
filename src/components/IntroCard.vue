@@ -4,8 +4,12 @@
             Importadores Mayoristas de productos FOREDOM
   </h2>
 
+  <section class="bg-gradient-to-r from-sky-700 via-slate-600 to-sky-700">
+    <h2 class="py-1 text-4xl font-bold text-center text-white font-poppins">Motores para uso profesional </h2>
+  </section>
   <!-- Sección de imágenes en grid con título en cada una -->
   <section class="grid grid-cols-2 gap-4 p-4 font-bold md:grid-cols-3 lg:grid-cols-4 font-poppins bg-gradient-to-r from-sky-700 via-slate-600 to-sky-700">
+
     <div class="relative overflow-hidden bg-white rounded-lg shadow-lg">
       <img src="https://http2.mlstatic.com/D_NQ_NP_624431-MLM31232949620_062019-O.webp" alt="Problemas de relación" class="object-cover w-full h-full animate-fade hover:scale-105">
       <h2 class="absolute top-0 left-0 right-0 p-4 text-center bg-white animate-fade-down text-slate-800 bg-opacity-80">Motor Foredom</h2>
