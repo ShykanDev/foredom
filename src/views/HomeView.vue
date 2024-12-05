@@ -327,7 +327,7 @@
             </section>
             <section>
               <div class="p-4 text-sm text-center bg-gray-100">
-    <p><i class="fas fa-info-circle text-sky-500"></i>  <em>Este sitio no está afiliado, respaldado ni es propiedad de Foredom. Los productos Foredom que ofrecemos son distribuidos bajo licencia mayorista. Todas las marcas y nombres de productos son propiedad de sus respectivos dueños. Las imágenes utilizadas en este sitio son propiedad de sus respectivos autores y no somos propietarios de ellas.</em></p>
+    <p><i class="fas fa-info-circle text-sky-500"></i>  <em>Este sitio no está afiliado, respaldado ni es propiedad de Foredom. Somos vendedores mayoristas de productos Foredom. Todas las marcas y nombres de productos son propiedad de sus respectivos dueños. Las imágenes utilizadas en este sitio son propiedad de sus respectivos autores y no somos propietarios de ellas.</em></p>
 </div>
 
             </section>
