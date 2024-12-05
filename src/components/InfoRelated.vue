@@ -75,7 +75,7 @@
         <section class="mb-8">
             <h2 class="mb-2 text-2xl font-bold text-sky-900"><i class="fas fa-globe"></i> Motor SR para Aplicaciones Internacionales</h2>
             <ul class="pl-5 list-disc">
-                <li>El motor SR está disponible en versiones para 230V con conexiones CE (cumplimiento de normativas de seguridad eléctrica en Europa).</li>
+                <li>El motor SR está disponible en versiones para 230V y 115V, con conexiones CE (cumplimiento de normativas de seguridad eléctrica en Europa).</li>
                 <li>Opciones de enchufes para diferentes regiones: Reino Unido, Europa continental, Australia, Israel, Brasil.</li>
             </ul>
         </section>

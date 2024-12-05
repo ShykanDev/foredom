@@ -30,6 +30,13 @@
             >
                 Beneficios y Productos
             </RouterLink>
+            <RouterLink
+                class="px-2 py-1 border-b-4 hover:text-sky-500"
+                :class="{ 'border-sky-500': route.name === 'refacciones' }"
+                :to="{ path: '/refacciones' }"
+            >
+               Refacciones
+            </RouterLink>
             <!-- <RouterLink
                 class="px-2 py-1 border-b-4 hover:text-sky-500"
                 :class="{ 'border-sky-500': route.name === 'spaTwo' }"
@@ -51,13 +58,20 @@
             >
                 Preguntas y Respuestas
             </RouterLink>
-            <a
+            <RouterLink
                 class="px-2 py-1 border-b-4 hover:text-sky-500"
-                :class="{ 'border-sky-500': route.name === 'non' }"
-                href="https://www.prasadam.mx/"
+                :class="{ 'border-sky-500': route.name === 'contact' }"
+                :to="{ name: 'contact' }"
             >
-                Prasadam
-          </a>
+                Contacto
+            </RouterLink>
+            <p
+                class="px-2 py-1 border-b-4 hover:text-sky-800"
+                :class="{ 'border-sky-500': route.name === 'non' }"
+                href="#"
+            >
+                Grupo Chimex
+          </p>
         </nav>
     </section>
 </header>

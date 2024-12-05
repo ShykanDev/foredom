@@ -133,7 +133,7 @@
             <div class="p-4 bg-white rounded-lg shadow-lg">
                 <img src="https://http2.mlstatic.com/D_NQ_NP_988149-MLM78830322155_082024-O.webp" alt="Red label product image 4" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
             </div>
-            <div class="p-4 bg-white rounded-lg shadow-lg">
+            <div  class="p-4 bg-white rounded-lg shadow-lg">
                 <img src="https://http2.mlstatic.com/D_NQ_NP_859554-MLM78870847895_092024-O.webp" alt="Red label product image 5" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
             </div>
             <div class="p-4 bg-white rounded-lg shadow-lg">
@@ -142,7 +142,7 @@
             <div class="p-4 bg-white rounded-lg shadow-lg">
                 <img src="https://http2.mlstatic.com/D_NQ_NP_918115-MLM75918025923_042024-O.webp" alt="Red label product image 7" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
             </div>
-            <div class="p-4 bg-white rounded-lg shadow-lg">
+            <div  class="p-4 bg-white rounded-lg shadow-lg">
                 <img src="https://http2.mlstatic.com/D_NQ_NP_947051-MLM80472474674_112024-O.webp" alt="Red label product image 8" class="object-cover transition-transform duration-300 rounded-lg hover:scale-125">
             </div>
             <div class="p-4 bg-white rounded-lg shadow-lg">
@@ -157,7 +157,7 @@
 
         </section>
 
-        <section>
+        <section >
           <h2 class="py-4 my-10 mb-4 text-4xl font-bold text-center text-white bg-sky-900">Refacciones Foredom SR Asia</h2>
           <h3 class="py-4 my-10 mb-4 text-2xl font-bold text-center text-sky-800">Nos ponemos a su disposición para brindarle el mejor servicio y atención personalizada, y así mismo le ofrecemos refacciones para su equipo <i class="fas fa-wrench"></i></h3>,
           <RefaccionesForedom />
@@ -175,8 +175,11 @@
 import RefaccionesForedom from '@/components/RefaccionesForedom.vue';
 import UsageView from '@/components/UsageView.vue';
 import MainLayout from '@/layouts/MainLayout.vue';
+import { onMounted } from 'vue';
 
+onMounted(() => {
 
+});
 </script>
 
 <style scoped>

@@ -2,7 +2,7 @@ import './assets/index.css';
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
+import emailjs from '@emailjs/browser';
 import App from './App.vue'
 import router from './router'
 
@@ -13,7 +13,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
-
+emailjs.init("fXlbInB-wrOGPiUbH");
 const app = createApp(App)
 app.component("v-icon", OhVueIcon)
 

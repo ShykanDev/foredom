@@ -20,6 +20,11 @@ const router = createRouter({
       component: () => import('../views/SpaOneView.vue'),
     },
     {
+      path: '/refacciones',
+      name: 'refacciones',
+      component: () => import('../views/RefaccionesView.vue'),
+    },
+    {
       path: '/ingredientes',
       name: 'spaTwo',
       component: () => import('../views/SpaTwoView.vue'),
@@ -33,6 +38,11 @@ const router = createRouter({
       path: '/caracteristicas',
       name: 'features',
       component: () => import('../views/InfoDetailedView.vue'),
+    },
+    {
+      path: '/contacto',
+      name: 'contact',
+      component: () => import('../views/ContactView.vue'),
     }
   ],
 })
