@@ -88,7 +88,7 @@ const route = useRoute();
 
 
 
-let showEmail = ref(false);
+let showEmail = ref(true);
 </script>
 
 <style scoped>
