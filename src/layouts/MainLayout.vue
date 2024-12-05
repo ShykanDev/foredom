@@ -10,6 +10,9 @@
                     <p class="animate-fade-down animate-delay-300 text-sky-50">mx</p>
                 </div>
                 <img class="w-10" src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo">
+                <div  class="absolute items-center hidden gap-4 text-white md:flex right-20 font-poppins">
+                <a v-if="showEmail" href="emailto:informes@prasadam.mx"><i class="fas fa-envelope"></i> informes@grupochimex.com</a>
+                </div>
             </div>
         </section>
         <section class="bg-white shadow-md font-poppins">
@@ -78,9 +81,14 @@
 
 <script lang="ts" setup>
 
+import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 
 const route = useRoute();
+
+
+
+let showEmail = ref(false);
 </script>
 
 <style scoped>
