@@ -11,7 +11,7 @@
                 </div>
                 <img class="w-10" src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo">
                 <div  class="absolute items-center hidden gap-4 text-white md:flex right-20 font-poppins">
-                <a v-if="showEmail" href="emailto:informes@prasadam.mx"><i class="fas fa-envelope"></i> informes@grupochimex.com</a>
+                <a  href="emailto:informes@prasadam.mx"><i class="fas fa-envelope"></i> informes@grupochimex.com</a>
                 </div>
             </div>
         </section>
