@@ -9,7 +9,7 @@
                     <p class="animate-fade-down animate-delay-150 text-sky-200">com.</p>
                     <p class="animate-fade-down animate-delay-300 text-sky-50">mx</p>
                 </div>
-                <img class="w-10" src="https://medicinaparaansiedad.com/img/logo.png" alt="Logo">
+                <div></div>
                 <div  class="absolute items-center hidden gap-4 text-white md:flex right-20 font-poppins">
                 <a  href="emailto:informes@prasadam.mx"><i class="fas fa-envelope"></i> informes@grupochimex.com</a>
                 </div>
