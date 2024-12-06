@@ -43,7 +43,12 @@ const router = createRouter({
       path: '/contacto',
       name: 'contact',
       component: () => import('../views/ContactView.vue'),
-    }
+    },
+    // redireccion al home cuando no se encuentra la ruta
+    {
+      path: '/:catchAll(.*)',
+      redirect: { name: 'home' },
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
